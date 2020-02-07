@@ -1,0 +1,11 @@
+/*
+ * JobModule css File
+*/
+
+.JobModule {
+  /* propertys here */
+  background-color: gray;
+  width: 50%;
+  height: 370px;
+  text-align: center;
+}

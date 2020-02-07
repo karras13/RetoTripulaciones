@@ -1,0 +1,12 @@
+/*
+ * Body css File
+*/
+
+.Body {
+  /* propertys here */
+  display: flex;
+  background-color: pink;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  min-height: 100%;
+}

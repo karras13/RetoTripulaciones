@@ -1,0 +1,23 @@
+/*
+ * Footer css File
+*/
+
+.Footer {
+  background-color: black;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.Footer1 {
+  /* float: left; */
+  /* padding-left: 30px; */
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.copyright {
+  /* float: right; */
+}
