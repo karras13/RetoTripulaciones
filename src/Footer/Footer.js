@@ -24,7 +24,6 @@ class Footer extends Component {
           <div class="letras"></div>
         <span class="Footer1"></span>
           <div class="heart"></div>
-        <span class="Footer1"></span>
         <div class="letras">{this.state.message}</div>
       </div>
     );

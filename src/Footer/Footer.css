@@ -3,17 +3,14 @@
   justify-content: space-around;
   align-items: center;
   display: flex;
+  height: 2em;
   color: white;
   position: fixed;
   bottom: 0;
   width: 100%;
+  padding-bottom: 10px;
 }
 
-@media screen and (max-width: 600px) {
-.Foter{
-display:none;
-}
-}
 
 .Footer1 {
   font-weight: bold;

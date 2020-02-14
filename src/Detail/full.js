@@ -5,14 +5,14 @@ import {
   Link
 } from "react-router-dom";
 import "./full.css"
-import Captura6 from "./Captura6.JPG"
+import Captura7 from "./Captura7.jpg"
 
 
 export default class Full extends Component {
   render() {
     return (
       <div>
-          <img class="grafico" src={Captura6}/><Link class="bot" to="/"><button>Atras</button></Link>
+          <img class="grafico" src={Captura7}/><Link class="bot" to="/"><button class="atras">Inicio</button></Link>
       </div>
     );
   }

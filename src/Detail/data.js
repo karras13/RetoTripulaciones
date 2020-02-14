@@ -6,14 +6,14 @@ import {
   Link
 } from "react-router-dom";
 import "./data.css"
-import Captura2 from "./Captura2.JPG"
+import Captura8 from "./Captura8.jpg"
 
 export default class Data extends Component {
   render() {
     return (
 
       <div>
-      <img class="grafico" src={Captura2}/><Link class="bot" to="/"><button>Atras</button></Link>
+      <img class="grafico" src={Captura8}/><Link class="bot" to="/"><button class="atras">Inicio</button></Link>
       </div>
     );
   }
