@@ -15,7 +15,7 @@ import Section from "./Sections/sections"
 import Full from "./Detail/full";
 import Data from "./Detail/data";
 import Ciber from "./Detail/ciber";
-import Main from "./Main/Main";
+
 
 export default class App extends Component {
   render(){

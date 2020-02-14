@@ -19,7 +19,7 @@ class Footer extends Component {
 
   render() {
     return (
-      <div class="Footer">
+      <div class="Foter">
           <h3 class="copyright">Todos los derechos reservados© 2020</h3>
           <div class="letras"></div>
         <span class="Footer1"></span>
