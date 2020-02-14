@@ -6,6 +6,8 @@ body {
   margin: 0;
 }
 
+
+
 .wrapper {
   padding-top: 100px;
   display: block;
@@ -15,11 +17,13 @@ body {
 .contenedor {
   padding: 0;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 
 .bot {
   text-decoration: none;
+  max-width: 100%
 }
 
 /* GENERAL BUTTON STYLING */
@@ -54,43 +58,4 @@ button::after {
 
 button:hover {
   color: #2ecc71;
-}
-
-/* BUTTON 1 */
-.btn-1::after {
-  height: 60%;
-  left: 0;
-  top: 0;
-  width: 60%;
-}
-
-.btn-1:hover:after {
-  height: 100%;
-}
-
-/* BUTTON 2 */
-.btn-2::after {
-  height: 60%;
-  left: 0;
-  top: 0;
-  width: 0;
-}
-
-.btn-2:hover:after {
-  width: 100%;
-}
-
-/* BUTTON 3 */
-.btn-3::after {
-  height: 0;
-  left: 50%;
-  top: 50%;
-  width: 0;
-}
-
-.btn-3:hover:after {
-  height: 100%;
-  left: 0;
-  top: 0;
-  width: 100%;
 }

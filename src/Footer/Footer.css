@@ -9,6 +9,11 @@
   width: 100%;
 }
 
+@media screen and (max-width: 600px) {
+.Foter{
+display:none;
+}
+}
 
 .Footer1 {
   font-weight: bold;
