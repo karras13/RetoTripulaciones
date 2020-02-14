@@ -1,3 +1,9 @@
 .bot {
   text-decoration: none;
 }
+
+.grafico {
+  width: 60%;
+  padding: 60px;
+  height: inherit;
+}

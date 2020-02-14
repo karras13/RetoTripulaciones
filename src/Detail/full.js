@@ -5,12 +5,14 @@ import {
   Link
 } from "react-router-dom";
 import "./full.css"
+import Captura6 from "./Captura6.JPG"
+
 
 export default class Full extends Component {
   render() {
     return (
       <div>
-        <img class="img" src="https://miro.medium.com/max/960/1*YfEOtukQSNXUOBcgZjuKLg.png"/><Link class="bot" to="/"><button>Atras</button></Link>
+          <img class="grafico" src={Captura6}/><Link class="bot" to="/"><button>Atras</button></Link>
       </div>
     );
   }

@@ -10,6 +10,7 @@ import "./sections.css"
 export default class Sections extends Component {
   render() {
     return (
+
       <div className="contenedor">
         <Link class="bot" to="/full"><div class="shake1" ><button>Full Stack</button></div></Link>
         <Link class="bot" to="/data"><div id="data" ><button>Data Science</button></div></Link>

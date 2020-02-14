@@ -9,6 +9,7 @@ body {
 .wrapper {
   padding-top: 100px;
   display: block;
+  margin-bottom: 70px;
 }
 
 .contenedor {

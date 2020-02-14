@@ -6,13 +6,14 @@ import {
   Link
 } from "react-router-dom";
 import "./data.css"
+import Captura2 from "./Captura2.JPG"
 
 export default class Data extends Component {
   render() {
     return (
 
       <div>
-      <img class="img" src="https://www.palermo.edu/Archivos_content/2019/cursos/ingenieria/datascience/programa-fundamentos-data-science-up.jpg"/><Link class="bot" to="/"><button>Atras</button></Link>
+      <img class="grafico" src={Captura2}/><Link class="bot" to="/"><button>Atras</button></Link>
       </div>
     );
   }

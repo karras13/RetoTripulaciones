@@ -21,7 +21,7 @@
 
 
 .heart{
-  --size: 20px;
+  --size: 15px;
   --color: red;
   transform:rotate(45deg);
   animation:beat 1s infinite alternate ease-in-out;

@@ -13,7 +13,7 @@ class Footer extends Component {
       Message.split("").map( (item, i) => {
         setTimeout(() => {
           this.setState({ message : this.state.message + item });
-        }, i*200);
+        }, i*50);
       });
 }
 
