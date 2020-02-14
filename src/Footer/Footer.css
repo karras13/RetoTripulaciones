@@ -1,6 +1,4 @@
-/*
- * Footer css File
-*/
+
 
 .Footer {
   background-color: black;
@@ -8,16 +6,54 @@
   align-items: center;
   display: flex;
   color: white;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
 }
 .Footer1 {
-  /* float: left; */
-  /* padding-left: 30px; */
   font-weight: bold;
   text-transform: uppercase;
 }
-.copyright {
-  /* float: right; */
+
+.corazon {
+  align-content: flex-start;
+}
+
+.heart{
+  --size: 20px;
+  --color: red;
+  transform:rotate(45deg);
+  animation:beat 1s infinite alternate ease-in-out;
+}
+@keyframes beat{
+  to{
+    transform: rotate(45deg) scale(1.05);
+  }
+}
+
+.heart,
+.heart::before,
+.heart::after{
+    width: var(--size);
+    height: var(--size);
+    background:var(--color);
+}
+.heart::before,
+.heart::after{
+  content:'';
+  display: block;
+  border-radius:50%;
+}
+.heart::before{
+  margin-top: calc(var(--size)*-.5);
+
+}
+.heart::after{
+  margin-top: calc(var(--size)* -0.5);
+  margin-left: calc(var(--size)* -0.5);
+}
+
+.letras {
+  color: #00BB2D;
+  text-shadow: 1px 1px 14px rgba(0, 163, 39, 0.79);
 }

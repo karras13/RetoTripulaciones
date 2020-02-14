@@ -1,27 +1,48 @@
-import React from "react";
-import logo from "./logo.svg";
+import React, { Component } from 'react';
 import "./App.css";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  useRouteMatch,
+  useParams
+} from "react-router-dom";
 import Header from "./Header/Header";
-import Body from "./Body/Body";
+//import Main from "./Main/Main";//
 import Footer from "./Footer/Footer";
+import Section from "./Sections/sections"
+import Full from "./Detail/full";
+import Data from "./Detail/data";
+import Ciber from "./Detail/ciber";
+import Main from "./Main/Main";
 
-function App() {
+export default class App extends Component {
+  render(){
   return (
-    <div className="App">
-      <Header />
-      <iframe
-        id="igraph"
-        scrolling="no"
-        style={{ border: "none" }}
-        seamless="seamless"
-        src="https://plot.ly/~chris/1638.embed"
-        height={525}
-        width="100%"
-      />
-      <Body class="cuerpo" />
-      <Footer />
-    </div>
-  );
-}
 
-export default App;
+    <div>
+      <Router>
+        <Header />
+        <div className="wrapper">
+          <Switch>
+            <Route exact path="/">
+              <Section />
+            </Route>
+            <Route path="/full">
+              <Full />
+            </Route>
+            <Route path="/data">
+              <Data />
+            </Route>
+            <Route path="/ciber">
+              <Ciber />
+            </Route>
+          </Switch>
+        </div>
+        <Footer />
+      </Router>
+    </div>
+    );
+    }
+}
